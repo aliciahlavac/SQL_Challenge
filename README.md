@@ -16,7 +16,7 @@ By creating this ERD, we note the following relationships:
 * dep_manager many to one relationship with departments: a manager can be assigned to multiple departments
 
 Data Engineering:
-SQL code was written to create tables schemas for these six .csv files, and VARCHAR(255) was used for all variable character fields except sex, in which VARCHAR(1) was used, as only two options are available, "M" or "F".  emp_no and salary were integers, and all dates (birth_date and hire_date) were set as dates.  Tables need to be created in this order to avoid creating problems with Foreign Keys.  
+[SQL](https://github.com/aliciahlavac/SQL_Challenge/blob/main/EmployeeSQL/Table%20Schema%20SQL.sql) code was written to create tables schemas for these six .csv files, and VARCHAR(255) was used for all variable character fields except sex, in which VARCHAR(1) was used, as only two options are available, "M" or "F".  emp_no and salary were integers, and all dates (birth_date and hire_date) were set as dates.  Tables need to be created in this order to avoid creating problems with Foreign Keys.  
 
 Data Analysis:
 pgAdmin 4 was used to analyze the following queries:
