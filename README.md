@@ -4,7 +4,7 @@ Module 9 Challenge
 In this project, I did research about a fictional company called Pewlett Hackard's employees from the 1980s to the 1990s.  The project is split into three sections, Data Modeling, Data Engineering, and Data Analysis.
 
 Data Modeling:
-Using six .csv files (titles.csv, employees.csv, dep_manager.csv, dep_emp.csv, salaries.csv, and departments.csv), which are located in the [Resources](https://github.com/aliciahlavac/SQL_Challenge/tree/main/Resources) section of this Repository, I created an Entity Relationship Diagram (ERD) and mapped the relationships between files. The following relationships were found and are shown in the ERD:
+Using six .csv files (titles.csv, employees.csv, dep_manager.csv, dep_emp.csv, salaries.csv, and departments.csv), which are located in the [Resources](https://github.com/aliciahlavac/SQL_Challenge/tree/main/Resources) section of this Repository, I created an [Entity Relationship Diagram (ERD)](https://github.com/aliciahlavac/SQL_Challenge/blob/main/EmployeeSQL/ERD.png) and mapped the relationships between files. The following relationships were found and are shown in the ERD:
 ![QuickDBD2](https://github.com/aliciahlavac/SQL_Challenge/assets/127240852/ea18771a-5796-4df6-8267-79f27af98ca2)
 Primary keys are noted by a key symbol and Foreign keys are noted by bold text.
 By creating this ERD, we note the following relationships:
