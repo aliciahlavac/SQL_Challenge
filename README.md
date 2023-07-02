@@ -19,7 +19,7 @@ Data Engineering:
 [SQL](https://github.com/aliciahlavac/SQL_Challenge/blob/main/EmployeeSQL/Table%20Schema%20SQL.sql) code was written to create tables schemas for these six .csv files, and VARCHAR(255) was used for all variable character fields except sex, in which VARCHAR(1) was used, as only two options are available, "M" or "F".  emp_no and salary were integers, and all dates (birth_date and hire_date) were set as dates.  Tables need to be created in this order to avoid creating problems with Foreign Keys.  
 
 Data Analysis:
-pgAdmin 4 was used to analyze the following queries:
+pgAdmin 4 was used to analyze the following [queries](https://github.com/aliciahlavac/SQL_Challenge/blob/main/EmployeeSQL/Employee_Data_Analysis.sql):
 * List the employee number, last name, first name, sex, and salary of each employee.
 * List the first name, last name, and hire date for the employees who were hired in 1986.
 * List the manager of each department along with their department number, department name, employee number, last name, and first name.
