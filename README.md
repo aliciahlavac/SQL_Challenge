@@ -5,7 +5,7 @@ In this project, I did research about a fictional company called Pewlett Hackard
 
 Data Modeling:
 Using six .csv files (titles.csv, employees.csv, dep_manager.csv, dep_emp.csv, salaries.csv, and departments.csv), which are located in the [Resources](https://github.com/aliciahlavac/SQL_Challenge/tree/main/Resources) section of this Repository, I created an [Entity Relationship Diagram (ERD)](https://github.com/aliciahlavac/SQL_Challenge/blob/main/EmployeeSQL/ERD.png) and mapped the relationships between files. The following relationships were found and are shown in the ERD:
-![QuickDBD2](https://github.com/aliciahlavac/SQL_Challenge/assets/127240852/ea18771a-5796-4df6-8267-79f27af98ca2)
+![ERD](https://github.com/aliciahlavac/SQL_Challenge/assets/127240852/3cb9f693-92ff-427a-b17d-c0364550c78f)
 Primary keys are noted by a key symbol and Foreign keys are noted by bold text.
 By creating this ERD, we note the following relationships:
 * titles one to many relationship with employees: titles may be used more than once to describe employees. For example, more than one employee can have the title "Manager"
