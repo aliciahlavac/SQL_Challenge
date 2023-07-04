@@ -10,7 +10,7 @@ Primary keys are noted by a key symbol and Foreign keys are noted by bold text.
 By creating this ERD, we note the following relationships:
 * titles one to many relationship with employees: titles may be used more than once to describe employees. For example, more than one employee can have the title "Manager"
 * employees one to many relationship with dep_manager: each department manager can manage more than one employee
-* employees one to many relationship with dep_emp: the same employee number can be listed in two or more department numbers
+* employees one to many relationship with dep_emp: the same employee number can be listed in two or more departments
 * employees one to one relationship with salary: each employee has a unique salary
 * dep_emp many to one relationship with departments: an employee can belong to multiple departments
 * dep_manager many to one relationship with departments: a manager can be assigned to multiple departments
