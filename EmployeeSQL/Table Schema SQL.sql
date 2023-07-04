@@ -32,7 +32,7 @@ CREATE TABLE dep_emp(
     dept_no VARCHAR(255) NOT NULL,
 	--Use a composite key to ensure values in table is unique and 
 	--representing an employee's assignment to a department
-	PRIMARY KEY (emp_no, dept_no)
+	PRIMARY KEY (emp_no, dept_no),
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
